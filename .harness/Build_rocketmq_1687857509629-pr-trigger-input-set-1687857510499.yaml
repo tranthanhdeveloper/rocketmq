@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_rocketmq_1687857509629-pr-trigger-input-set
+  identifier: Build_rocketmq_1687857509629prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: rocketmqdemo
+  pipeline:
+    identifier: Build_rocketmq_1687857509629
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
