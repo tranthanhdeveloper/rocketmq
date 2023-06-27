@@ -39,9 +39,9 @@ pipeline:
                         paths:
                           - "**/*.xml"
           platform:
-            os: MacOS
+            os: Linux
             arch: Arm64
           runtime:
-            type: Docker
+            type: Cloud
             spec: {}
         type: CI
