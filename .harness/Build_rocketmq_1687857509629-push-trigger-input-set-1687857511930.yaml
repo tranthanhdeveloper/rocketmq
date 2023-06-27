@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_rocketmq_1687857509629-push-trigger-input-set
+  identifier: Build_rocketmq_1687857509629pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: rocketmqdemo
+  pipeline:
+    identifier: Build_rocketmq_1687857509629
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
